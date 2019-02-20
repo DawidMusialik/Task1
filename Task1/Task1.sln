@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbLib.DbService", "DbLib.Db
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbLib.DbPostgreSQL", "..\DbLib.DbPostgreSQL\DbLib.DbPostgreSQL.csproj", "{1CF2005D-6B8A-4989-95F8-E71F88A7E020}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedLib.Objects", "..\SharedLib.Objects\SharedLib.Objects.csproj", "{6C8263BD-AA30-4DC0-A5AE-6A36893C92D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{1CF2005D-6B8A-4989-95F8-E71F88A7E020}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CF2005D-6B8A-4989-95F8-E71F88A7E020}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CF2005D-6B8A-4989-95F8-E71F88A7E020}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C8263BD-AA30-4DC0-A5AE-6A36893C92D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C8263BD-AA30-4DC0-A5AE-6A36893C92D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C8263BD-AA30-4DC0-A5AE-6A36893C92D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C8263BD-AA30-4DC0-A5AE-6A36893C92D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
