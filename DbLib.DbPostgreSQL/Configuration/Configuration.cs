@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace DbLib.DbPostgreSQL.Configuration
+﻿namespace DbLib.DbPostgreSQL.Configuration
 {
     public static class Configuration
     {
@@ -10,7 +6,7 @@ namespace DbLib.DbPostgreSQL.Configuration
         private static string _port => "5432";
         private static string _dataBase => "TASK";
         private static string _userName => "postgres";
-        private static string _password => "P@ssw0rd";
+        private static string _password => "postgres";
 
 
         public static string ConnectionString => "Host=" + _host + ";Port=" + _port + ";Database=" + _dataBase + ";Username=" + _userName + ";Password=" + _password;

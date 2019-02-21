@@ -1,17 +1,11 @@
-using DbLib.DbService;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.TestHost;
-using Moq;
 using Newtonsoft.Json;
 using SharedLib.Objects;
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Text;
-using Task1.Controllers;
-using Task1.Interface;
 using Xunit;
 
 namespace Tests.xUnit

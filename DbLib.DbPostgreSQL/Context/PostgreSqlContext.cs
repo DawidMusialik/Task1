@@ -1,8 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using SharedLib.Objects;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using Connection = DbLib.DbPostgreSQL.Configuration.Configuration;
 
 namespace DbLib.DbPostgreSQL.Context
