@@ -4,7 +4,7 @@
     {
         private static string _host => "localhost";
         private static string _port => "5432";
-        private static string _dataBase => "TASK";
+        private static string _dataBase => "TASK1";
         private static string _userName => "postgres";
         private static string _password => "postgres";
 

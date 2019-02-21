@@ -13,6 +13,7 @@ namespace SharedLib.Objects
         [Required]
         [StringLength(100)]
         public override string Name { get; set; }
+
         [Required]
         public override decimal Price { get; set; }
     }
