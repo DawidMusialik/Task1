@@ -6,12 +6,13 @@ using DbLib.DbService;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using SharedLib.Objects;
+using Task1.Interface;
 
 namespace Task1.Controllers
 {
     [Produces("application/json")]
     [Route("api/Product")]
-    public class ProductController : Controller
+    public class ProductController : Controller, IProductController
     {
         private readonly IProductService _productService;
         public ProductController(IProductService productService)
@@ -24,8 +25,6 @@ namespace Task1.Controllers
         public IEnumerable<ProductModel> Get()
         {
             return _productService.GetProducts();
-
-
         }
 
         // GET: api/Product/5

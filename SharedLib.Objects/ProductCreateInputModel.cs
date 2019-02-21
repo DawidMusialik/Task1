@@ -8,7 +8,6 @@ namespace SharedLib.Objects
 {
     public class ProductCreateInputModel: ProductAbstract
     {
-        public override Guid Id { get; set; }
 
         [Required(ErrorMessage = "Product must have name")]
         [StringLength(100, ErrorMessage = "Name of product max lenght is 100")]
