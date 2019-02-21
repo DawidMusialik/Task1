@@ -4,7 +4,7 @@ using System.Text;
 
 namespace SharedLib.Objects
 {
-    public class ProductAbstract
+    public abstract class ProductAbstract
     {
         public virtual Guid Id { get; set; }
         public virtual string Name { get; set; }
